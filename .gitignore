@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+sidecar/node_modules/
+
+# Build outputs
+dist/
+sidecar/dist/
+src-tauri/target/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Whisper models (large binaries)
+*.bin
+
+# Sidecar binaries
+src-tauri/binaries/voxcode-sidecar-*
+
+# Env
+.env
+.env.local
+
+# Bun
+bun.lockb
